@@ -24,3 +24,9 @@ latest stable Ubuntu release. The `latest` tag contains the latest KiCad stable
 release on the latest Ubuntu stable release.
 
 [KiCad EDA suite]: http://kicad-pcb.org/
+
+# Docker build and run
+
+    docker build . --tag kicad
+
+	docker run -it kicad
